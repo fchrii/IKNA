@@ -15,7 +15,7 @@ img{
 .outline{
     border: 1px solid black;
     width: 60%;
-    max-width: 20px auto;
+    margin: 20px auto;
     padding: 25px;
 }
 
@@ -37,4 +37,23 @@ img{
     width: 70%;
     padding:0px 20px;
     float: left;
+}
+
+@media only screen and(max-width:768px){
+    .outline{
+        width: 100%;
+        padding: 0px;
+        border: none;
+    }
+
+    .kiri{
+        width: 20%;
+        float: left;
+    }
+
+    .kanan{
+        width: 70%;
+        padding:0px 20px;
+        float: left;
+    }
 }
